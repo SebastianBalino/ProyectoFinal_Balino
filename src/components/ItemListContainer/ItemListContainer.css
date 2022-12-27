@@ -1,0 +1,10 @@
+.ItemListContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+}
