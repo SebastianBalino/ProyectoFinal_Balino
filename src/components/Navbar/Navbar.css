@@ -1,60 +1,71 @@
-nav {
-    background-color: rgb(230, 20, 20);
-}
-.menu {
+.NavBar {
     display: flex;
-    width: 100%;
-    height: 100px;
-    justify-content: space-between;
-    
-}
-h2{
-    color: black;
-    align-items: center; 
-    width: 33%;   
-    font-size: 45px;
-    justify-content: center;
-    margin-bottom: 10px;
-    text-align: center;
-    font-family: 'Russo One', sans-serif;    
-}
-span{
-    font-weight: bold;
-    font-size: 45px;
-    color: rgb(255, 255, 255);
-    font-family: 'Russo One', sans-serif;    
-    
-} 
-.botones{
-    display: flex;
-    gap: 40px;   
+    background: transparent;
+    justify-content: space-around;
     align-items: center;
-    width: 33%;
-    justify-content: center;
-    padding-right: 20px;
+    height: 100px;
+    background: rgb(230, 20, 20);
+    font-family: 'Russo One', sans-serif;    
 }
-button {    
-    border-radius: 4px;
-    font-family: sans-serif;
-    width: 100px;
-    height: 45px;
+.NavBar h3 {
+    font-size: 25px;
+}
+.NavBar span {
     font-size: 18px;
-    background: rgb(255, 255, 255);
-    text-align: center;
-    border: 1.5px solid rgb(230, 20, 20);
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    font-family: 'Bebas Neue', cursive;
-}
-button:hover {
-    background-color: rgb(230, 20, 20); /* Green */
     color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    border: 1.5px solid white;
 }
-a {
-    color: white;
+
+.Categories {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Option {
     text-decoration: none;
-    
+    border-radius: 25;
+    margin: 0 50px;    
+    width: auto;
+    padding: 12px;
+    font-size: 15px;
+    background: #ffffff;
+    border-radius: 4px;
+    flex: none;
+    display: flex;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    border: none;
+    border-style: none;
+    cursor: pointer;
+    outline: inherit;
 }
+
+.ActiveOption {
+    text-decoration: none;
+    border-radius: 25;
+    margin: 0 50px;    
+    width: auto;
+    padding: 12px;
+    font-size: 15px;
+    background:rgb(44, 34, 34);
+    border-radius: 8px;
+    flex: none;
+    display: flex;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: none;
+    border-style: none;
+    cursor: pointer;
+    outline: inherit;
+}
+

@@ -1,20 +1,26 @@
-.carrito{          
-    padding-right: 10px;
-    width: 40px;
-    
-    
-}
-text{
-    color: black;
-    font-size: 25px;
-    font-family: 'Bebas Neue', cursive;
-}
-.menu_carrito{
-    
+.CartWidget {
+    width: auto;
+    padding: 20px;
+    font-size: 8px;
+    border-radius: 8px;
+    flex: none;
     display: flex;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    text-align: center;
-
+    text-decoration: none;
+    border: none;
+    border-style: none;
+    cursor: pointer;
+    outline: inherit;
+    font-size: medium;
+    margin-right: 60px;
 }
+
+.CartImg {
+    margin-right: 10px;
+    width: 30px;
+}
+
